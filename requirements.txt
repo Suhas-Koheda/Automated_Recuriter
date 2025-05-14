@@ -1,0 +1,29 @@
+fastapi==0.104.1
+uvicorn==0.23.2
+pydantic==2.4.2
+sqlalchemy==2.0.23
+pymongo==4.6.0
+python-dotenv==1.0.0
+httpx==0.25.1
+python-multipart==0.0.6
+jinja2==3.1.2
+google-generativeai==0.3.2
+pyjwt==2.8.0
+# Choose only one Zoom library, removing pyzoom as zoomus is more established
+zoomus==1.1.5
+sendgrid==6.10.0
+bcrypt==4.0.1
+python-jose==3.3.0
+passlib==1.7.4
+python-decouple==3.8
+aiofiles==23.2.1
+# Using a version of Pillow that's compatible with Python 3.13
+pillow
+pydub==0.25.1
+transformers==4.35.2
+# Using latest available torch version
+torch>=2.5.0
+librosa==0.10.1
+opencv-python==4.8.1.78
+pyannote.audio==3.1.1
+python-socketio==5.10.0
